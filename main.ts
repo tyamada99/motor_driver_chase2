@@ -26,6 +26,7 @@ function 左の距離を測る () {
         DigitalPin.P1,
         PingUnit.Centimeters
         )
+        basic.pause(200)
     }
     return 左の距離
 }
@@ -39,6 +40,7 @@ function 右の距離を測る () {
         DigitalPin.P1,
         PingUnit.Centimeters
         )
+        basic.pause(200)
     }
     return 右の距離
 }
@@ -70,6 +72,7 @@ function 前の距離を測る () {
         DigitalPin.P1,
         PingUnit.Centimeters
         )
+        basic.pause(200)
     }
     led.plotBarGraph(
     前の距離,
